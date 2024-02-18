@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  let [counter, setCounter] = useState(10);
+  const [counter, setCounter] = useState(10);
 
   const addValue = () => {
     if (counter < 20) setCounter(counter + 1);
